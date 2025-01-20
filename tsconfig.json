@@ -5,7 +5,9 @@
     "module": "CommonJS",
     "strict": true,
     "esModuleInterop": true,
-    "types": ["@testing-library/jest-dom"],  
+    "types": ["@testing-library/jest-dom"],
+    "allowImportingTsExtensions": true,
+    "noEmit": true,
   },
   "include": ["src/**/*"]
 }
