@@ -40,3 +40,48 @@
 .read-the-docs {
   color: #888;
 }
+
+.app {
+  font-family: Arial, sans-serif;
+  margin: 20px auto;
+  width: 400px;
+  text-align: center;
+}
+.input-container {
+  display: flex;
+  gap: 10px;
+}
+input {
+  flex: 1;
+  padding: 5px;
+  font-size: 16px;
+}
+button {
+  padding: 5px 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.filters {
+  margin: 10px 0;
+}
+.filters button {
+  margin: 0 5px;
+}
+.filters button.active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+.task-list {
+  list-style: none;
+  padding: 0;
+}
+.task-list li {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  border-bottom: 1px solid #ddd;
+}
+.task-list li.completed span {
+  text-decoration: line-through;
+  color: gray;
+}
